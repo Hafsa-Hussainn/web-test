@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#navbar {
+    width: 100%;
+    height:5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 850px;
+}
+
+#logo:hover {
+    border: 2px solid purple;
+    
+}
+
+#ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 405px;
+    height: 19px;
+    font-weight: bolder;
+    
+}
+
+#ul:hover {
+    border: 2px solid purple ;
+
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 688px;
+    height: 5rem;
+    gap: 30px;
+
+}
+
+#button1 {
+    width: 150px;
+    height: 40px;
+    border: 2px;
+
+}
+
+#button1:hover {
+    border: 3px solid purple ;
+
+}
+
+#image {
+width: 1800px;
+height: 696px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#text1 {
+    position: relative;
+   top: -90px;
+   left: 90px;
+font-family: Roboto;
+font-size: 52px;
+font-weight: 700;
+line-height: 30px;
+color: white;
+
+}
+
+#text1:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    
+    
+    
+}
+
+#text2 {
+    position: relative;
+    left: 90px;
+    top: -50px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+    
+}
+#text2:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+#button2 {
+
+    position: relative;
+    left: 90px;
+    top: -2px;
+}
+
+#button2:hover {
+    border: 3px solid purple ;
+    width: 200px;
+    height: 50px;
+
+}
+
+
